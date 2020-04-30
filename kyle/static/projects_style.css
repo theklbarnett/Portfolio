@@ -1,0 +1,90 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar #avi {
+	width: 80px;
+	border-radius: 40px;
+}
+
+	.navbar li {
+		font-size: 25px;
+	}
+
+	.navbar img {
+		width: 30px;
+		background-color: white;
+		border-radius: 6px;
+	}
+
+#social-link {
+	display: inline-block;
+	margin-left: auto;
+}
+
+#social-link img {
+	margin-right: 15px;
+}
+
+#main {
+	margin-top: 15px;
+}
+
+#user-dash {
+	margin-top: 20px;
+	border: 1px solid red;
+	border-radius: 25px;
+	padding: 15px;
+	color: white;
+	background-color: #5c555b;
+}
+
+
+#ecommerce {
+	margin-top: 20px;
+	border: 1px solid red;
+	border-radius: 25px;
+	padding: 15px;
+	color: white;
+	background-color: #5c555b;
+}
+
+.project-text {
+	display: inline-block;
+	width: 59%;
+}
+.wire-frame {
+	width: 40%;
+	display: inline-block;
+	border: 1px solid #0275d8;
+	border-radius: 25px;
+	padding: 15px;
+	background-color: #292b2c;
+	vertical-align: top;
+}
+
+.wire-frame img {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 10px;
+}
+
+h2 {
+	padding-left: 10px;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+.container p {
+	padding: 5px 10px;
+}
+
+@media only screen and (max-width: 991px) {
+	.wire-frame img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}

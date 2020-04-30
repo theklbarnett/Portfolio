@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav #avi {
+	width: 80px;
+	border-radius: 40px;
+}
+
+	nav li {
+		font-size: 25px;
+	}
+
+	nav img {
+		width: 30px;
+		background-color: white;
+		border-radius: 6px;
+	}
+
+#social-link {
+	display: inline-block;
+	margin-left: auto;
+}
+
+#social-link img {
+	margin-right: 15px;
+}
+
+#main {
+	margin-top: 15px;
+}
+
+#about-me {
+	margin-top: 20px;
+	border: 1px solid red;
+	border-radius: 25px;
+	padding: 20px;
+	color: white;
+	background-color: #5c555b;
+	width: 375px;
+}
+
+#about-me h3 {
+	text-align: center;
+}
+
+#about-me button {
+	margin-left: 110px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+form {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	display: block;
+	margin: auto;
+	width: 100%
+
+}
+
+label {
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
+
+textarea {
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-bottom: 30px;
+	display: block;
+	width: 100%;
+}
+
+
+
+.messages {
+	color: red;
+	list-style-type: none;
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: center;
+	padding: 0;
+	display: block;
+}

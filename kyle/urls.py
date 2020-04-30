@@ -19,4 +19,9 @@ from . import views
 
 urlpatterns = [
     path('', views.render_home),
+    path('resume', views.render_resume),
+    path('projects', views.render_projects),
+    path('contact-me', views.render_contact),
+    path('contact-me/send-message', views.send_message),
+    path('resume/download', views.download_resume),
 ]

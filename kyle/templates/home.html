@@ -4,47 +4,57 @@
 	<title>Kyle Barnett Portfolio</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  {% load static %}
+	{% load static %}
 	<link rel="stylesheet" type="text/css" href="{% static 'home_style.css' %}">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-  	<img id="avi" src="{% static 'LIAvi.jpeg' %}" alt="me">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/kyle-barnett/" target="_blank" tabindex="-1"><img src="{% static 'LILogo.svg' %}" alt="LinkedIn"></a>
-      </li>
-    </ul>
-  </div>
-</nav>	
+		<a class="navbar-brand" href="/">
+			<img id="avi" src="{% static 'LIAvi.jpeg' %}" alt="me">
+		</a>
+			<div id="social-link">
+    		<a href="https://www.linkedin.com/in/kyle-barnett/" target="_blank" tabindex="-1"><img src="{% static 'LILogo.svg' %}" alt="LinkedIn"></a>
+    		<a href="https://github.com/theklbarnett" target="_blank" tabindex="-1"><img src="{% static 'Github.png' %}" alt="Github"></a>
+      	</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+	    	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	    		<li class="nav-item active">
+	        		<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+	    		</li>
+	    		<li class="nav-item">
+	        		<a class="nav-link" href="/resume">Resume</a>
+	    		</li>
+	    		<li class="nav-item">
+	    			<a class="nav-link" href="/projects">Projects</a>
+	    		</li>
+	    		<li class="nav-item">
+	    			<a class="nav-link" href="/contact-me">Contact</a>
+	    		</li>
+	    	</ul>
+	  	</div>
+	</nav>	
 	<div id="main" class="container">
 		<h1>Kyle Barnett</h1>
-		<div id="aboutme" class="container">
+		<div id="about-me" class="container">
 			<div id="aboutmetext" class="container">
 				<h2>About Me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>I'm a chemical engineer switching careers to become a full stack developer. Currently I am on the search for an entry level developer position. Interested primarily in the backend structure of software, however any sort of development is intriguing to me. I really enjoy problem solving and troubleshooting, which is apparent with my desire to enter the tech industry but also shown through my love of working on cars. Below is a gif of me playing with my 3 year old pitbull Bucky.</p>
 			</div>
 			<img src="{% static 'BuckyPlayTime.gif' %}" alt="My_Dog_Bucky">
+		</div>
+		<div id="background" class="container">
+			<h2>Background</h2>
+			<p>During my undergraduate studies, I pursued a degree in Chemical Engineering from the University of Washington. Upon entering into my freshman year in 2015, I had already accumulated a majority of credits for the Chemistry program but decided to apply to the Chemical Engineering program because of the problem solving nature of engineering majors. However towards the end of my freshman year I took an intro class on Java and fell in love with programming. Only having 2 years left in my degree, I refused to give up on something I had already started. Especially with the extremely competitive nature of the University's STEM admittance and my acceptance into the Chemical Engineering program.</p>
+			<img src="{% static 'diploma.jpg' %}" alt="Diploma">
+			<p>Fast forward to my last quarter before graduation, I decided to take a course on advanced Java data structures and rediscovered my passion for computer science. Since graduation I have independantly honed my skills, and most recently graduated from the "Coding Dojo" coding bootcamp.</p>
 		</div>
 	</div>
 </body>
