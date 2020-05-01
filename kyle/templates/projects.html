@@ -53,15 +53,19 @@
 		<a href="http://3.23.100.11/">
 			<div id="user-dash" class="container project">
 				<div class="project-text">
-				<h2>User Dashboard</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+					<h2>User Dashboard</h2>
+					<h6>Overview</h6>
+					<p>
+						This application allows for the creation of users/admins on a similar platform as some of the older social media websites. Users can register and interact with each other on a communal wall. Each user can post messages and comment on other posts. The first user to register is automatically registered as an admin and as an admin can create/edit/delete other users as well as make them admins. 
+					</p>
+					<h6>Features</h6>
+					<ul>
+						<li>JQuery utilizing Ajax to delete comments/messages for a more seamless user experience</li>
+						<li>Validation of user credentials during login as well as qualifications for registration</li>
+						<li>Ajax preventation of registering without form completion</li>
+						<li>Semi-responsively designed (on most pages)</li>
+					</ul>
+
 				</div>
 				<div class="wire-frame container">
 					<img src="{% static 'userdash1.png' %}" alt="dash-screenshot">
@@ -76,14 +80,16 @@
 			<div id="ecommerce" class="container project">
 				<div class="project-text">
 					<h2>Ecommerce</h2>
+					<h6>Overview</h6>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Similar to other ecommerce site structures, the main page of the site displays an array of products offered by the company and offers a filter by category or search by name function. A temporary cart for unregistered users allows for checkout and payment (although for demo purposes payment processing is not incorporated into the design). The admin login page allows for administrators to review orders and add additional products. 
 					</p>
+					<h6>Features</h6>
+					<ul>
+						<li>Python backend with a Django framework</li>
+						<li>Javascript pop up window for admins to edit and add new products</li>
+						<li>Filtering of products/orders by category and keyword reloads only a portion of the page to allow for faster generation of content</li>	
+					</ul>
 				</div>
 				<div class="wire-frame container">
 					<img src="{% static 'ecomm1.png' %}" alt="ecomm-screenshot">
